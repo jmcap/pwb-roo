@@ -1,0 +1,14 @@
+lint:
+  name: default
+  description: Default lintr configuration for Roo RStudio Addins
+  linters:
+    - style_linter
+    - syntax_linter
+    - missing_spaces_linter
+    - line_length_linter
+    - assignment_linter
+    - duplicate_linter
+exclusions:
+  - ".Rhistory"
+  - ".RData"
+  - "inst/"
